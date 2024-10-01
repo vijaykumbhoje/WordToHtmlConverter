@@ -1,0 +1,10 @@
+﻿<Window x:Class="WordToHtmlConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Word to HTML Converter" Height="300" Width="489">
+    <Grid Margin="0,0,10,0">
+        <TextBox x:Name="txtFilePath" Margin="10,100,163,154" IsReadOnly="True"/>
+        <Button x:Name="btnUpload" Content="Upload Word File" Width="150" Height="30" Margin="292,100,-42,154" Click="BtnUpload_Click"/>
+        <Button x:Name="btnConvert" Content="Convert to HTML" Width="150" Height="30" Margin="13,142,316,112" IsEnabled="False" Click="BtnConvert_Click"/>
+    </Grid>
+</Window>
